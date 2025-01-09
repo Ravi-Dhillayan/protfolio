@@ -1,0 +1,26 @@
+.project{
+ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.pro_1{
+    /* border: 1px solid black; */
+}
+.pro_2{
+    height: 180px;
+    width: 180px;
+     text-align: center;
+     border: 1px solid black;
+     
+
+}
+.pro_2:hover{
+    box-shadow: 20px 30px 50px black;
+    /* text-align: justify; */
+}
+.ph2:hover{
+    text-shadow: 910px;
+    color: yellow;
+}

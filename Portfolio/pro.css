@@ -1,0 +1,124 @@
+.p_he{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.headerh1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.div1{
+    /* background-size: auto; */
+    width: 1900px;
+   height: 700px;
+   background-color: #000000;
+   background-image: url(nav2/abc.jpg);
+   /* padding: px 300px 300px 900px; */
+   background-repeat: no-repeat;
+  background-size: 1400px;
+   transition-delay: 5se;
+   animation-name: bacimg;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-timing-function: ease-out;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* line-height: 50%; */
+
+}
+@keyframes bacimg{
+   0%{
+      background-image: url("nav2/h10.jpg");
+      background-size: 300px;
+      background-position: center;
+   }
+   25%{
+      background-image: url("nav2/h1.jpg");
+      background-size: 400px;
+      background-position: center;
+   }
+   50%{
+      background-image: url("nav2/h2.jpg");
+      background-size: 600px;
+      background-position: center;
+   }
+   75%{
+      background-image: url("nav2/h4.jpg");
+      background-size: 1000px;
+      background-position: center;
+   }
+   100%{
+      background-image: url("nav2/h3.jpg");
+      background-size: 1000px;
+      background-position: center;
+   }
+
+}
+.input{
+   background-color: yellow;
+    color: black;
+    /* padding-top: 10px; */
+    /* margin: -40px; */
+    height: 40px;
+    width: 100px
+    
+}
+.input:hover{background-color: white;
+  
+   color: black;}
+   /* input{
+      color: rgb(202, 173, 173);
+      background-color: black;
+   } */
+    .input_1{
+      height: 40px;
+      background-color: black;
+      color: aliceblue;
+    }
+.input_1:hover{  
+   
+   background-color: yellow; color: black;}
+
+   .Hum{
+   display: flex;
+   justify-content: flex-start;
+   /* margin-left: -320px; */
+   font-size: 120px;
+   color: bisque;
+
+}
+.project{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.p_img{
+    border: 1px solid black;
+}
+.project_m{
+    /* border: 1px solid black; */
+    margin-top: -15px;
+  box-sizing: border-box;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pro_2{
+    height: 300px;
+    width: 200px;
+    text-align: justify;
+     /* border: 1px solid black; */
+     
+
+}
+.pro_2:hover{
+    background-color: black;
+    color: bisque;
+    box-shadow: 20px 30px 50px rgb(20, 109, 87);
+    /* text-align: justify; */
+}

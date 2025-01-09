@@ -1,0 +1,133 @@
+/* ABOUT SECTION ON CSS  */
+
+
+  /* contact */
+  #div_4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.div_1{
+    width: 28%; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+ .div_2 {
+    width: 48%; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.add {
+    margin-bottom: 15px;
+}
+
+.add i {
+    margin-right: 10px;
+    color: #000;
+}
+
+.add p {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.seet{
+    width: 60%;
+}
+#submit{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#submit:hover{
+    background-color: #333;
+    color: aqua;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .div_1, .div_2, .seet {
+        width: 100%; 
+    }
+    #submit{
+        background-color: black;
+        color: white;
+    }
+   
+}
+/*  FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+.footer-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.footer-nav a:hover {
+    color: #1fe55b;
+}
+
+.footer-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #ff4500;
+}
